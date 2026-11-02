@@ -1,0 +1,153 @@
+/* General Page Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Website Header */
+header {
+    background-color: #b22222;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.subtitle {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 3px solid #b22222;
+}
+
+nav a {
+    color: #b22222;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+    padding: 8px 12px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #b22222;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+/* Main Content Area */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Content Cards */
+.card {
+    background-color: #ffffff;
+    border: 2px solid #b22222;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Headings */
+.card h2 {
+    color: #b22222;
+    border-bottom: 2px solid #b22222;
+    padding-bottom: 8px;
+}
+
+.card h3 {
+    color: #8b0000;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+}
+
+/* Lists */
+ul,
+ol {
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Links */
+a {
+    transition: 0.3s;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    background-color: #b22222;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 18px;
+    margin: 8px 8px 8px 0;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #8b0000;
+    color: #ffffff;
+}
+
+/* Website Footer */
+footer {
+    background-color: #b22222;
+    color: #ffffff;
+    text-align: center;
+    padding: 18px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Mobile-Friendly Design */
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        margin: 5px;
+        padding: 8px;
+    }
+
+    main {
+        padding: 0 12px;
+    }
+
+    .card {
+        padding: 18px;
+    }
+
+    .button {
+        display: block;
+        text-align: center;
+    }
+}
