@@ -1,17 +1,23 @@
-/* General Page Styling */
+/* ===================================
+   General Page Styling
+=================================== */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #ffffff;
+    background-color: #FFF0F2;
     color: #333333;
     margin: 0;
     padding: 0;
     line-height: 1.6;
 }
 
-/* Website Header */
+/* ===================================
+   Website Header
+=================================== */
+
 header {
-    background-color: #b22222;
-    color: white;
+    background-color: #B22222;
+    color: #FFFFFF;
     text-align: center;
     padding: 30px 20px;
 }
@@ -24,65 +30,84 @@ header h1 {
 .subtitle {
     font-size: 18px;
     margin-top: 10px;
+    color: #FFFFFF;
 }
 
-/* Navigation Menu */
+/* ===================================
+   Navigation Menu
+=================================== */
+
 nav {
-    background-color: #ffffff;
+    background-color: #FFF0F2;
     text-align: center;
     padding: 15px;
-    border-bottom: 3px solid #b22222;
+    border-bottom: 3px solid #B22222;
 }
 
 nav a {
-    color: #b22222;
+    color: #B22222;
     text-decoration: none;
     font-weight: bold;
     margin: 0 15px;
     padding: 8px 12px;
     display: inline-block;
-}
-
-nav a:hover {
-    background-color: #b22222;
-    color: #ffffff;
     border-radius: 5px;
 }
 
-/* Main Content Area */
+nav a:hover {
+    background-color: #B22222;
+    color: #FFFFFF;
+}
+
+/* ===================================
+   Main Content Area
+=================================== */
+
 main {
     max-width: 1000px;
     margin: 30px auto;
     padding: 0 20px;
 }
 
-/* Content Cards */
+/* ===================================
+   Content Cards
+=================================== */
+
 .card {
-    background-color: #ffffff;
-    border: 2px solid #b22222;
+    background-color: #FFFFFF;
+    border: 2px solid #B22222;
     border-radius: 10px;
     padding: 25px;
     margin-bottom: 25px;
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Section Headings */
+/* ===================================
+   Section Headings
+=================================== */
+
 .card h2 {
-    color: #b22222;
-    border-bottom: 2px solid #b22222;
+    color: #B22222;
+    border-bottom: 2px solid #B22222;
     padding-bottom: 8px;
 }
 
 .card h3 {
-    color: #8b0000;
+    color: #8B0000;
 }
 
-/* Paragraphs */
+/* ===================================
+   Paragraphs
+=================================== */
+
 p {
     font-size: 16px;
 }
 
-/* Lists */
+/* ===================================
+   Lists
+=================================== */
+
 ul,
 ol {
     padding-left: 30px;
@@ -92,32 +117,43 @@ li {
     margin-bottom: 8px;
 }
 
-/* Links */
+/* ===================================
+   General Link Styling
+=================================== */
+
 a {
-    transition: 0.3s;
+    transition: 0.3s ease;
 }
 
-/* Buttons */
+/* ===================================
+   Buttons
+=================================== */
+
 .button {
     display: inline-block;
-    background-color: #b22222;
-    color: #ffffff;
+    background-color: #B22222;
+    color: #FFFFFF;
     text-decoration: none;
     padding: 10px 18px;
     margin: 8px 8px 8px 0;
     border-radius: 5px;
     font-weight: bold;
+    border: 2px solid #B22222;
 }
 
 .button:hover {
-    background-color: #8b0000;
-    color: #ffffff;
+    background-color: #8B0000;
+    border-color: #8B0000;
+    color: #FFFFFF;
 }
 
-/* Website Footer */
+/* ===================================
+   Website Footer
+=================================== */
+
 footer {
-    background-color: #b22222;
-    color: #ffffff;
+    background-color: #B22222;
+    color: #FFFFFF;
     text-align: center;
     padding: 18px;
     margin-top: 30px;
@@ -125,12 +161,21 @@ footer {
 
 footer p {
     margin: 0;
+    color: #FFFFFF;
 }
 
-/* Mobile-Friendly Design */
+/* ===================================
+   Mobile-Friendly Design
+=================================== */
+
 @media screen and (max-width: 600px) {
+
     header h1 {
         font-size: 28px;
+    }
+
+    nav {
+        padding: 10px;
     }
 
     nav a {
@@ -149,5 +194,6 @@ footer p {
     .button {
         display: block;
         text-align: center;
+        margin-right: 0;
     }
 }
